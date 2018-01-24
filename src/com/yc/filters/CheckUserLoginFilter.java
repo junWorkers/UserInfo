@@ -19,7 +19,7 @@ public class CheckUserLoginFilter implements Filter {
 	 * 销毁的方法
 	 */
 	public void destroy() {
-
+		System.out.println("haha");
 	}
 	/**
 	 * 过滤的方法
