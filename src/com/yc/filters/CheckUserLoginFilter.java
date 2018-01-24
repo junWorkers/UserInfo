@@ -20,6 +20,7 @@ public class CheckUserLoginFilter implements Filter {
 	 */
 	public void destroy() {
 		System.out.println("ha");
+		System.out.println("我修改了代码");
 	}
 	/**
 	 * 过滤的方法
