@@ -7,6 +7,7 @@ public class Userinfo {
 	private String sex;
 	private String tel;
 	private String photo;
+	private String aabb;
 	
 	public String toJson(){
 		return "{\"usid\":\""+usid+"\",\"uname\":\""+uname+"\",\"sex\":\""+sex+"\",\"tel\":\""+tel+"\",\"photos\":\""+this.getPhotos()+"\"}";
